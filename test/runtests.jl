@@ -1,4 +1,4 @@
-using GeCKOScreen
+using GeckoScreen
 using Test
 using DataFrames
 using CSV
@@ -6,7 +6,7 @@ using Query
 
 testcsv(path::AbstractString; kwargs...) = CSV.read(path, DataFrame; kwargs...)
 
-@testset "GeCKOScreen.jl" begin
+@testset "GeckoScreen.jl" begin
     # Write your tests here.
     
     gmap = readGeCKOlibrary()
